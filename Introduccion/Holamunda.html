@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Forma 2 de JS-->
+    <script defer>
+      // defer indica que quiero cargar el html antes que el script
+      alert("Se ejecuta desde el head");
+    </script>
+    <!--FORMA CORRECTA O MAS USADA DE USAR JS-->
+    <script defer src="holaMundo.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hola mundo</h1>
+    <!-- Forma 1 de JS-->
+    <script>
+      /*Notas importantes
+        -JS es sensible a mayusculas y minusculas
+        -Respetar la sintaxis de tipo camel case. getElementById*
+        -Punto y coma al final de cada sentencia*/
+      document.write("<h2>!Hola mundo</h2>");
+      alert("Hola mundo");
+      console.log("Hola desde la consola");
+    </script>
+  </body>
+</html>
