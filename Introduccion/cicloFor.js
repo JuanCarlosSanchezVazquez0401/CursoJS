@@ -5,6 +5,7 @@ const nombre = [
   'Estefania',
   'Erika',
   'Manuel',
+  // 'karla',
 ];
 
 nombre.forEach((nombre) => {
@@ -20,8 +21,10 @@ nombre.forEach((nombre) => {
     Expresion 3: Esta expresion se ejecuta siempre y despues de que se ejecute el bloque de codigo
 */
 
-for (let numero = 1; numero <= 11; numero++) {
+for (let numero = 0; numero <= 6; numero++) {
   //   numero += 1;
   //numero++;
-  console.log(numero);
+  /*tener mucho cuidado con la tercera expresion, ya que si esta abierto en live server al hacer el cambio
+    en tiempo real, se suele congelar antes de terminar de declarar la expresion*/
+  console.log(nombre[numero]);
 }
