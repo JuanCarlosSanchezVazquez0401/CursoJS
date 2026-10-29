@@ -26,9 +26,18 @@ Ciclo for of
 Nos permite recorrer los valores de un objeto iterable.
 Podemos recorrer: Arreglos, cadenas de texto, mapas y listas de nodos, etc*/
 
+/* cuando tenemos colecciones =/ arreglo sirve con for of, muy util para el DOM */
 const etiquetas = document.head.children;
 console.log(etiquetas);
 
 for (elemento of etiquetas) {
   console.log(elemento);
 }
+
+/*Alter */
+[...etiquetas]; /* forma de convertir etiquetas en array */
+console.log([...etiquetas]);
+
+[...etiquetas].forEach((elementos) => {
+  console.log(elementos);
+});
