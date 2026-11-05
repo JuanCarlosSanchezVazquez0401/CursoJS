@@ -1,0 +1,3 @@
+El dom contiene la estructura de toda la pagina
+Tenemos que acceder a los elementos para posteriormente hacerlos interactivos 
+-Como acceder a cada uno de los elementos del DOM
